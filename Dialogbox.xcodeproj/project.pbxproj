@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2C6720A1CF73AEC00B33CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C672091CF73AEC00B33CDA /* AppDelegate.swift */; };
+		A2C6720C1CF73AEC00B33CDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6720B1CF73AEC00B33CDA /* ViewController.swift */; };
+		A2C6720F1CF73AEC00B33CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C6720D1CF73AEC00B33CDA /* Main.storyboard */; };
+		A2C672111CF73AEC00B33CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C672101CF73AEC00B33CDA /* Assets.xcassets */; };
+		A2C672141CF73AEC00B33CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C672121CF73AEC00B33CDA /* LaunchScreen.storyboard */; };
+		A2C6721F1CF73AEC00B33CDA /* DialogboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6721E1CF73AEC00B33CDA /* DialogboxTests.swift */; };
+		A2C6722A1CF73AEC00B33CDA /* DialogboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C672291CF73AEC00B33CDA /* DialogboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C6721B1CF73AEC00B33CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C671FE1CF73AEC00B33CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C672051CF73AEC00B33CDA;
+			remoteInfo = Dialogbox;
+		};
+		A2C672261CF73AEC00B33CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C671FE1CF73AEC00B33CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C672051CF73AEC00B33CDA;
+			remoteInfo = Dialogbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2C672061CF73AEC00B33CDA /* Dialogbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dialogbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C672091CF73AEC00B33CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2C6720B1CF73AEC00B33CDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2C6720E1CF73AEC00B33CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2C672101CF73AEC00B33CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2C672131CF73AEC00B33CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2C672151CF73AEC00B33CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C6721A1CF73AEC00B33CDA /* DialogboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C6721E1CF73AEC00B33CDA /* DialogboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogboxTests.swift; sourceTree = "<group>"; };
+		A2C672201CF73AEC00B33CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C672251CF73AEC00B33CDA /* DialogboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C672291CF73AEC00B33CDA /* DialogboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogboxUITests.swift; sourceTree = "<group>"; };
+		A2C6722B1CF73AEC00B33CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C672031CF73AEC00B33CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C672171CF73AEC00B33CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C672221CF73AEC00B33CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2C671FD1CF73AEC00B33CDA = {
+			isa = PBXGroup;
+			children = (
+				A2C672081CF73AEC00B33CDA /* Dialogbox */,
+				A2C6721D1CF73AEC00B33CDA /* DialogboxTests */,
+				A2C672281CF73AEC00B33CDA /* DialogboxUITests */,
+				A2C672071CF73AEC00B33CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C672071CF73AEC00B33CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C672061CF73AEC00B33CDA /* Dialogbox.app */,
+				A2C6721A1CF73AEC00B33CDA /* DialogboxTests.xctest */,
+				A2C672251CF73AEC00B33CDA /* DialogboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C672081CF73AEC00B33CDA /* Dialogbox */ = {
+			isa = PBXGroup;
+			children = (
+				A2C672091CF73AEC00B33CDA /* AppDelegate.swift */,
+				A2C6720B1CF73AEC00B33CDA /* ViewController.swift */,
+				A2C6720D1CF73AEC00B33CDA /* Main.storyboard */,
+				A2C672101CF73AEC00B33CDA /* Assets.xcassets */,
+				A2C672121CF73AEC00B33CDA /* LaunchScreen.storyboard */,
+				A2C672151CF73AEC00B33CDA /* Info.plist */,
+			);
+			path = Dialogbox;
+			sourceTree = "<group>";
+		};
+		A2C6721D1CF73AEC00B33CDA /* DialogboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C6721E1CF73AEC00B33CDA /* DialogboxTests.swift */,
+				A2C672201CF73AEC00B33CDA /* Info.plist */,
+			);
+			path = DialogboxTests;
+			sourceTree = "<group>";
+		};
+		A2C672281CF73AEC00B33CDA /* DialogboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C672291CF73AEC00B33CDA /* DialogboxUITests.swift */,
+				A2C6722B1CF73AEC00B33CDA /* Info.plist */,
+			);
+			path = DialogboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C672051CF73AEC00B33CDA /* Dialogbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C6722E1CF73AEC00B33CDA /* Build configuration list for PBXNativeTarget "Dialogbox" */;
+			buildPhases = (
+				A2C672021CF73AEC00B33CDA /* Sources */,
+				A2C672031CF73AEC00B33CDA /* Frameworks */,
+				A2C672041CF73AEC00B33CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dialogbox;
+			productName = Dialogbox;
+			productReference = A2C672061CF73AEC00B33CDA /* Dialogbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2C672191CF73AEC00B33CDA /* DialogboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C672311CF73AEC00B33CDA /* Build configuration list for PBXNativeTarget "DialogboxTests" */;
+			buildPhases = (
+				A2C672161CF73AEC00B33CDA /* Sources */,
+				A2C672171CF73AEC00B33CDA /* Frameworks */,
+				A2C672181CF73AEC00B33CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C6721C1CF73AEC00B33CDA /* PBXTargetDependency */,
+			);
+			name = DialogboxTests;
+			productName = DialogboxTests;
+			productReference = A2C6721A1CF73AEC00B33CDA /* DialogboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2C672241CF73AEC00B33CDA /* DialogboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C672341CF73AEC00B33CDA /* Build configuration list for PBXNativeTarget "DialogboxUITests" */;
+			buildPhases = (
+				A2C672211CF73AEC00B33CDA /* Sources */,
+				A2C672221CF73AEC00B33CDA /* Frameworks */,
+				A2C672231CF73AEC00B33CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C672271CF73AEC00B33CDA /* PBXTargetDependency */,
+			);
+			name = DialogboxUITests;
+			productName = DialogboxUITests;
+			productReference = A2C672251CF73AEC00B33CDA /* DialogboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C671FE1CF73AEC00B33CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BILLY;
+				TargetAttributes = {
+					A2C672051CF73AEC00B33CDA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A2C672191CF73AEC00B33CDA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A2C672051CF73AEC00B33CDA;
+					};
+					A2C672241CF73AEC00B33CDA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A2C672051CF73AEC00B33CDA;
+					};
+				};
+			};
+			buildConfigurationList = A2C672011CF73AEC00B33CDA /* Build configuration list for PBXProject "Dialogbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2C671FD1CF73AEC00B33CDA;
+			productRefGroup = A2C672071CF73AEC00B33CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C672051CF73AEC00B33CDA /* Dialogbox */,
+				A2C672191CF73AEC00B33CDA /* DialogboxTests */,
+				A2C672241CF73AEC00B33CDA /* DialogboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C672041CF73AEC00B33CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C672141CF73AEC00B33CDA /* LaunchScreen.storyboard in Resources */,
+				A2C672111CF73AEC00B33CDA /* Assets.xcassets in Resources */,
+				A2C6720F1CF73AEC00B33CDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C672181CF73AEC00B33CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C672231CF73AEC00B33CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C672021CF73AEC00B33CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C6720C1CF73AEC00B33CDA /* ViewController.swift in Sources */,
+				A2C6720A1CF73AEC00B33CDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C672161CF73AEC00B33CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C6721F1CF73AEC00B33CDA /* DialogboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C672211CF73AEC00B33CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C6722A1CF73AEC00B33CDA /* DialogboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C6721C1CF73AEC00B33CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C672051CF73AEC00B33CDA /* Dialogbox */;
+			targetProxy = A2C6721B1CF73AEC00B33CDA /* PBXContainerItemProxy */;
+		};
+		A2C672271CF73AEC00B33CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C672051CF73AEC00B33CDA /* Dialogbox */;
+			targetProxy = A2C672261CF73AEC00B33CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2C6720D1CF73AEC00B33CDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C6720E1CF73AEC00B33CDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2C672121CF73AEC00B33CDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C672131CF73AEC00B33CDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2C6722C1CF73AEC00B33CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2C6722D1CF73AEC00B33CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C6722F1CF73AEC00B33CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dialogbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BILL.CO.TH.Dialogbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2C672301CF73AEC00B33CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dialogbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BILL.CO.TH.Dialogbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2C672321CF73AEC00B33CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DialogboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BILL.CO.TH.DialogboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dialogbox.app/Dialogbox";
+			};
+			name = Debug;
+		};
+		A2C672331CF73AEC00B33CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DialogboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BILL.CO.TH.DialogboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dialogbox.app/Dialogbox";
+			};
+			name = Release;
+		};
+		A2C672351CF73AEC00B33CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DialogboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BILL.CO.TH.DialogboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dialogbox;
+			};
+			name = Debug;
+		};
+		A2C672361CF73AEC00B33CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DialogboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BILL.CO.TH.DialogboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dialogbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C672011CF73AEC00B33CDA /* Build configuration list for PBXProject "Dialogbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C6722C1CF73AEC00B33CDA /* Debug */,
+				A2C6722D1CF73AEC00B33CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C6722E1CF73AEC00B33CDA /* Build configuration list for PBXNativeTarget "Dialogbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C6722F1CF73AEC00B33CDA /* Debug */,
+				A2C672301CF73AEC00B33CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2C672311CF73AEC00B33CDA /* Build configuration list for PBXNativeTarget "DialogboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C672321CF73AEC00B33CDA /* Debug */,
+				A2C672331CF73AEC00B33CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2C672341CF73AEC00B33CDA /* Build configuration list for PBXNativeTarget "DialogboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C672351CF73AEC00B33CDA /* Debug */,
+				A2C672361CF73AEC00B33CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2C671FE1CF73AEC00B33CDA /* Project object */;
+}
